@@ -1,0 +1,87 @@
+:root {
+    --primary-color: #21169a;
+    --secondary-color: #342222;
+    --background-color: #f8f9fa;
+    --text-color: #212529;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+.section-title {
+    color: #3f3f35;
+    font-family: "Lobster", sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.text-colored {
+    color: #21169a;
+}
+
+.btn-colored {
+    background-color: var(--primary-color);
+    border: none;
+    color: #fff;
+}
+
+.btn-colored:hover {
+    background-color: darken(var(--primary-color), 10%);
+}
+
+#cabecalho {
+    background-color: #ffffff;
+    border-bottom: 1px solid #cdcbdf;
+}
+
+#cabecalho .navbar-brand {
+    font-family: "Roboto", sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+#cabecalho .nav-link {
+    color: var(--secondary-color);
+}
+
+#cabecalho .nav-link:hover {
+    color: var(--primary-color);
+}
+
+.carousel-item img {
+    height: 600px; /* Defina a altura máxima desejada */
+}
+
+.col-md-4 img {
+    height: 237px;
+}
+
+#destinos, #sobre, .rodape {
+    background-color: #cdcbdf;
+}
+
+footer {
+    background-color: #ffffff;
+}
+
+#cabecalho .nav-link.active {
+    color: #ffffff; 
+    background-color: #242056; 
+    border-radius: 0.25rem; 
+    font-weight: bold; 
+}
+
+footer p{
+    font-family: "Lobster", sans-serif;
+    font-size: 24px;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
